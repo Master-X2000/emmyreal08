@@ -1,0 +1,85 @@
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    border-left: solid rgba(13, 16, 37, 0.541);
+    border-right: solid rgba(13, 16, 37, 0.541);
+    background-color: rgb(7, 7, 27);
+}
+
+table {
+    text-align:center;
+    
+    padding-left: 20em;
+    padding-right: 22em;
+    background-color: rgba(40, 39, 41, 0.425);
+}
+
+td {
+    border-left:solid 1px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+p {
+    font-size: 20px;
+    color:rgba(184, 184, 184, 0.616)
+}
+
+#footer {
+    background-image:url(gold\ background.png) ;
+    width: 50em;
+    background-position:center;
+    background-size: 40em;
+}
+
+#about1, #about2 {
+    border-right: solid 1px;
+}
+
+a {
+    color:rgb(65, 65, 65);
+    text-decoration:none;
+    font-size: 1.5em;
+}
+
+a:hover, a:focus {
+    color:gold;
+    background-color: rgba(40, 39, 41, 0.425);
+}
+
+.fig {
+    color:aliceblue;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.img {
+    padding-left: 5em;
+}
+
+button {
+    padding-left: 3em;
+    padding-right: 3em;
+    font-style: italic;
+    font-weight: 900;
+    font-family:sans-serif;
+}
+
+#ftable {
+    padding-right: 17.8em;
+    padding-left: 13em;
+}
